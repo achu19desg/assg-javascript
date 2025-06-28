@@ -55,15 +55,21 @@ Assignment-2
 8.	 What is hoisting? Explain with a code e.g.
        
        Ans: Hoisting in JavaScript means that variable and function declarations are moved to the top of their scope (function or global) before the code runs. This lets you use them earlier in the code, even before they are written.
-       
-
-9.	 Create a greeting alert. Hint:(use => prompt, variable-message, alert)
+  eg:
+       greet(); 
+       function greet()
+  	   {
+         console.log("Hello ,welcome all!");
+        }
+    Output: Hello ,welcome all!
+  	 
+10.	 Create a greeting alert. Hint:(use => prompt, variable-message, alert)
 
        let name = prompt("What is your name?");
        let message = "Hello, " + name + "! Welcome home";
        alert(message);
 
-10.	 Write some code so that the values of the below variables switch around 
+11.	 Write some code so that the values of the below variables switch around 
 Let a = 5, let b = 8. Switch the value so that a holds the value 8 and the variable b holds the value.
  
   let a = 5;
