@@ -83,15 +83,15 @@ ans:
     let age=20;
     if(age>=18)
     {
-        console.log("can be voting");
+        console.log("Person eligible for voting");
     }
     else
     {
-        console.log("cannot be voting");
+        console.log("Person are not eligible for voting");
     }
     
     output:
-       can be voting
+        Person eligible for voting
 
                
 4.	Check if the person has a fever (normal temperature: 98.6F)
